@@ -1,28 +1,25 @@
 <!doctype html>
-<!-- langue du site -->
-<html lang="fr">
+<html lang="Default">
 <head>
     <meta charset="utf-8">
-	<!-- suppression de la balise meta name="keywords" car ne sert plus à rien. mots-clés dans contenu de la page. -->
     <meta name="keywords" content="seo, google, site web, site internet, agence design paris, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design">
-    <!-- rajouter indexer le site -->
-	<meta name="robots" content="INDEX, FOLLOW">
-	<!-- ajouter du contenu 70 à 320 caractères -->
-	<meta name="description" content="">
-	<!-- responsive avec viewport -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> -->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<!-- fichier a mettre en premier pour faciliter la lecture du robot -->
-	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-
 	
- 	<!-- ajouter le titre -->
-    <title>La chouette agence</title>
+    
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js"></script>
+
+    <title>.</title>
 
     
 <!-- Analytics -->
@@ -40,25 +37,11 @@
 
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<!-- pas de texte caché - black hat -->
-				<!-- pas de style css dans le fichier html -->
-				<!-- <div class="keywords">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div> -->
-				<a class="navbar-brand" href="index.html">
-					<img src="img/la-chouette-agence.png" alt="logo du site de la web agence, logo qui représente un dessin graphique d'un hibou" height="40" />
-				</a>
-				
-				<!-- pas de texte caché - black hat -->
-				<!-- pas de style css dans le fichier html -->
-				<!-- <div class="keywords"> -->
-					<!-- Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site -->
-				<!-- </div> -->
-
-				<!-- toggle responsive -->
+				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" height="40" /></a>
+				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
@@ -66,12 +49,10 @@
 					<li>
 						<a href="index.html">Accueil</a>
 					</li>
-					<!-- <li>
-					</li> -->
 					<li>
-						<!-- suppression de la fleche - preferer les icones -->
-						<!-- renommer la page2.html pour LE SEO -->
-						<a href="page2.html">page2</a>
+					</li>
+					<li>
+						<a href="page2.html">page2 &gt;</a>
 					</li>
 				</ul>
 			</div>
@@ -85,8 +66,8 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
-				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="logo du site de la web agence, logo qui représente un dessin graphique d'un hibou" />
-				<h1 class="text-center hero-bloc-text tc-white">
+				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="La chouette agence, agence web paris, création logo paris" />
+				<h1 class="text-center hero-bloc-text tc-white ">
 					La chouette agence.
 				</h1>
 				<div class="text-center">
@@ -103,10 +84,7 @@
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<!-- rajouter du texte et non une image -->
-				<p>La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet.</p>
 				<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title.png" />
-				coucou
 			</div>
 		</div>
 		<div class="row voffset-lg med-width-whitespace">
@@ -114,10 +92,9 @@
 				<div class="text-center">
 					<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 				</div>
-				<!-- h3 devient h2 -->
-				<h2 class="mg-md text-center">
+				<h3 class="mg-md text-center">
 					Web design
-				</h2>
+				</h3>
 				<p class="text-center ">
 					Que vous ayez un site web qui a besoin d&rsquo;un rafraîchissement ou que vous partiez de zéro, laissez-nous vous réaliser un design dont vous serez fier.
 				</p>
@@ -126,10 +103,9 @@
 				<div class="text-center">
 					<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 				</div>
-				<!-- h3 devient h2 -->
-				<h2 class="mg-md text-center">
+				<h3 class="mg-md text-center">
 					&nbsp;Stratégie
-				</h2>
+				</h3>
 				<p class="text-center ">
 					Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour comprendre vos objectifs commerciaux afin de vous proposer le meilleur design possible.<br>
 				</p>
@@ -138,10 +114,9 @@
 				<div class="text-center">
 					<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 				</div>
-				<!-- h3 devient h2 -->
-				<h2 class="mg-md text-center">
+				<h3 class="mg-md text-center">
 					Illustrations
-				</h2>
+				</h3>
 				<p class="text-center ">
 					Un bon design n'est rien sans de bonnes illustrations. Laissez faire notre équipe de graphistes talentueux pour donner à vos pages une touche finale d'élégance.
 				</p>
@@ -162,10 +137,9 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12">
-				<!-- mettre un "p" au lieu du "h2" - le css pour l'aspect esthétique du site -->
-				<p class="mg-md text-center tc-white">
+				<h2 class="mg-md text-center tc-white">
 					Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
-				</p>
+				</h2>
 				<p class="text-center white">
 					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="page2.html">Contactez notre équipe</a><br>
 				</p>
@@ -186,18 +160,18 @@
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
 				<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="paris web design logo agence web meilleure agence et refonte site web journal" class="img-responsive portfolio-thumb" /></a>
-				<h2 class="mg-md text-center">
+				<h3 class="mg-md text-center">
 					Refonte d'un site web pour un journal local
-				</h2>
+				</h3>
 				<p class="text-center">
 					Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
 				</p>
 			</div>
 			<div class="col-sm-6">
 				<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes" /></a>
-				<h2 class="mg-md text-center">
+				<h3 class="mg-md text-center">
 					Création d'un site web pour photographes
-				</h2>
+				</h3>
 				<p class="text-center">
 					Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
 				</p>
@@ -206,20 +180,18 @@
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
 				<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur"/></a>
-				<!-- h3 devient h2 -->
-				<h2 class="mg-md text-center">
+				<h3 class="mg-md text-center">
 					Création d'un site internet pour un voyageur
-				</h2>
+				</h3>
 				<p class="text-center">
 					Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.
 				</p>
 			</div>
 			<div class="col-sm-6">
 				<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage" /></a>
-				<!-- h3 devient h2 -->
-				<h2 class="mg-md text-center">
+				<h3 class="mg-md text-center">
 					Conception d'un site pour une agence de mariage
-				</h2>
+				</h3>
 				<p class="text-center">
 					Nous avons travaillé avec cette agence pour créer un site internet permettant la présentation détaillée de leurs prestations.
 				</p>
@@ -233,10 +205,9 @@
 <div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 	<div class="container bloc-lg">
 		<div class="row">
-			<!-- p au lieu du h2 -->
-			<p class="mg-md text-center tc-white">
+			<h2 class="mg-md text-center tc-white">
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
-			</p>
+			</h2>
 			<div class="col-sm-12 text-center">
 				<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
 			</div>
@@ -325,11 +296,5 @@
 <!-- Principal conteneur END -->
     
 
-   <!-- mettre les scripts tout en bas du site pour un chargement plus rapide -->
-   <script src="./js/jquery-2.1.0.js"></script>
-   <script src="./js/bootstrap.js"></script>
-   <script src="./js/blocs.js"></script>
-   <script src="./js/jquery.touchSwipe.js" defer></script>
-   <script src="./js/gmaps.js"></script>
 </body>
 </html>

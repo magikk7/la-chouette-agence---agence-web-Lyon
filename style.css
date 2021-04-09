@@ -362,11 +362,6 @@ a:hover {
     z-index: 2;
 }
 
-.keywords { 
-    color:#cccccc;
-    font-size: 1px;
-}
-
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
