@@ -133,7 +133,8 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    /* color: rgba(255, 255, 255, .6); */
+    color: #fff;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +151,8 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    /* color: rgba(255, 255, 255, 1); */
+    color: black;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -677,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -700,7 +702,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 800px;
     margin: auto auto auto auto;
 }
 
@@ -737,6 +739,11 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+}
+
+.f-size-medium {
+    font-size: 20px!important;
+    font-weight: 600!important;
 }
 
 .portfolio-thumb {
