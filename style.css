@@ -5,8 +5,6 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
-    max-width: 2000px;
 }
 
 a,
@@ -41,7 +39,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    /* padding: 0 50px; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -297,7 +295,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 40px;
 }
 
 .navbar {
@@ -318,6 +316,8 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+
+    background-color: yellow;
 }
 
 .navbar-brand img[src$=svg] {
@@ -673,7 +673,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 40px;
 }
 
 .hero-bloc-text-sub {
@@ -700,7 +700,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Open Sans";
 }
 
@@ -736,9 +736,9 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
+/* h1 {
     color: #333333!important;
-}
+} */
 
 h4 {
     color: #333333!important;
@@ -848,40 +848,6 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
-
-/* cf si soucis avec image */
-/* @media (min-width: 1280px)and(max-width: 2000px) {
-    .bg-banniere {
-        background-image: url("img/la-chouette-agence-banniere_3.jpg");
-    }
-} */
-
-/* cf si soucis avec image
-@media (min-width: 768px)and(max-width: 1280px) { */
-    /* .bg-banniere {
-        background-image: url("img/la-chouette-agence-banniere_3.jpg");
-        } */
-        /* .bg-presentation {
-            background-image: url("img/image-de-presentation_2.bmp");
-        }
-    } */
-
-    /* cf si soucis avec image
-@media (min-width: 768px)and(max-width: 1280px) {
-    .bg-banniere {
-        background-image: url("img/la-chouette-agence-banniere_4.jpg");
-        }
-    } */
-
-    /* cf si soucis avec image
-@media (min-width: 414px)and(max-width: 768px) {
-    .bg-banniere {
-        background-image: url("img/la-chouette-agence-banniere_5.jpg");
-        }
-        .bg-presentation {
-            background-image: url("img/image-de-presentation_3.bmp");
-        }
-    } */
 
 @media (max-width: 414px) {
         .bg-presentation {
