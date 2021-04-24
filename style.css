@@ -298,6 +298,10 @@ a:hover {
     font-size: 40px;
 }
 
+.ombre {
+    text-shadow:0.1em 0.1em 0.2em black;
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -766,6 +770,8 @@ h4 {
     display:flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: auto;
 }
 
 .avatar {
