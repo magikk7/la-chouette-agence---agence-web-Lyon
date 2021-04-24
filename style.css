@@ -296,7 +296,6 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 40px;
-    text-shadow:0.1em 0.1em 0.2em black;
 }
 
 .navbar {
@@ -801,7 +800,6 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
-    text-shadow:0.1em 0.1em 0.2em black;
 }
 
 .btn-atomic-tangerine {
@@ -844,42 +842,18 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/images/bannieres-la-chouette-agence/la-chouette-agence-banniere.jpg");
-}
-@media (min-width: 768px) and (max-width: 1280px) {
-    .bg-banniere {
-        background-image: url("img/images/bannieres-la-chouette-agence/la-chouette-agence-banniere_desktop.JPG");
-    }
-}
-@media (min-width: 414px) and (max-width: 768px) {
-    .bg-banniere {
-        background-image: url("img/images/bannieres-la-chouette-agence/la-chouette-agence-banniere_tablette.JPG");
-    }
-}
-@media (max-width: 414px) {
-    .bg-banniere {
-        background-image: url("img/images/bannieres-la-chouette-agence/la-chouette-agence-banniere_mobile.jpg");
-    }
+    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/images/image-de-presentation/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.bmp");
 }
-@media (min-width: 768px) and (max-width: 1280px) {
-    .bg-banniere {
-        background-image: url("img/images/image-de-presentation/image-de-presentation_desktop.JPG");
-    }
-}
-@media (min-width: 414px) and (max-width: 768px) {
-    .bg-banniere {
-        background-image: url("img/images/image-de-presentation/image-de-presentation_tablette.JPG");
-    }
-}
+
 @media (max-width: 414px) {
-    .bg-banniere {
-        background-image: url("img/images/image-de-presentation/image-de-presentation_desktop.JPG");
+        .bg-presentation {
+            background-image: url("img/image-de-presentation_4.bmp");
+        }
     }
-}
 
 @media (max-width: 1024px) {
     .bloc {
@@ -893,16 +867,6 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-}
-
-/**/
-.dimensions {
-    width: 100%;
-    height: auto;
-}
-/**/
-.img-responsive {
-    margin: 0 auto;
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -919,7 +883,6 @@ h4 {
         background-attachment: scroll;
     }
 } */
-
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
