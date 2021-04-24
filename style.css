@@ -21,6 +21,21 @@ button {
     color: #000000;
 }
 
+.image-logo {
+    width: 60%;
+    height: auto;
+}
+
+.image-resize-mode {
+    width: 18%;
+    height: auto;
+}
+
+img.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -770,8 +785,6 @@ h4 {
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: auto;
 }
 
 .avatar {
